@@ -7,6 +7,8 @@ body{
     overflow-x: hidden;
   text-transform: uppercase;
   font-size: 0.8em;
+  background-color: #000000;
+
 }
 .hero{
     width: 100%;
@@ -26,9 +28,10 @@ nav{
 }
 .logo{
     color: whitesmoke;
-    font-size: 35px;
+    font-size: 2rem;
     letter-spacing: 1px;
     cursor: pointer;
+    text-shadow: #64f4f4 1px 5px 20px;
 }
 span{
     color: #64f4f4;
@@ -41,7 +44,7 @@ nav ul li{
 nav ul li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-transform: uppercase;
     transition: 0.3s ease;
 }
@@ -67,24 +70,24 @@ nav ul li a:hover{
 }
 .content{
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 8%;
     transform: translateY(-50%);
 }
 h1{
     color: white;
     padding: 20px 0 20px;
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 50px;
 }
 h3{
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 50px;
 }
 h4{
     color:rgba(251, 242, 251, 0.8);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 5px;
     
 }
@@ -104,19 +107,23 @@ small{
     width: 100%;
     border: 2px solid #64f4f4;
     outline: none;
-    border-radius: 15px;}
+    border-radius: 15px;
+  }
 .about{
-        width: 100%;
-        padding: 100px 0px;
-        background-color: black;
-        display: flex;
-        justify-content: center;
-    }
+    display: flex;
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom:  5%;}
+    
     .about img{
-        width: 430px;
-        height: auto;
-        border-radius: 50%;
-        float: left;
+      width: 430px;
+      height: auto;
+      border-radius: 50%;
+      float: left;
+        
         transition: 0.3s;
     }
     .about img:hover{
@@ -128,7 +135,8 @@ small{
         animation: glowing;
     }
     .about-text{width: 550px;
-        float: right;
+      float: right;
+        
         margin-right: 100px;
         margin-left: 60px;
     }
@@ -141,20 +149,20 @@ small{
       box-shadow: 0 0 0 0.3;
   }
     main{
-    width: 1130px;
+    width: 100%;
     max-width: 90%;
     margin: auto auto;
     display: flex;
     align-items: center;
     }
     .about-text h2{color: white;
-    font-size: 75px;
+    font-size: 70px;
     text-transform:capitalize ;
     margin-bottom: 20px;
 }
     .about-text h5{
         color: white;
-        font-size: 22px;
+        font-size: 20px;
         text-transform:capitalize;
         margin-bottom: 20px;
     }
@@ -251,7 +259,7 @@ svg {
   }
   .title{
     color: white;
-    font-size: 65px;
+    font-size: 3rem;
   }
   .box{
     display: flex;
@@ -278,7 +286,7 @@ svg {
   }
   h5{
     color: antiquewhite;
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 15px;
   }
   .pra p{
@@ -323,7 +331,7 @@ margin-bottom: 25px;
 }
 .contact-me p{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 25px;
 }
@@ -349,7 +357,7 @@ margin-bottom: 25px;
     font-weight: bold;
     padding: 10px 25px;
     border-radius: 10px;
-    font-size: 2.3rem;
+    font-size: 2rem;
     padding-right: 100px;
     padding-bottom: 10px;
     text-align: center;
@@ -365,7 +373,7 @@ margin-bottom: 25px;
     margin: -20px;
 }
 .footer h5{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #ffffff;
     padding-top: 20px    ;
     text-transform: uppercase;
@@ -380,9 +388,9 @@ margin-bottom: 25px;
     padding: 10px;
 }
 .cube{
-  font-size: 3rem;
+  font-size: 2rem;
   margin-top: 180px;
-  margin-right: 250px;
+  margin-right: 200px;
   position: relative;
   width: 300px;
   height: 300px;
